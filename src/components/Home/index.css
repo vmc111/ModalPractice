@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.main-bg {
+  max-width: 100%;
+  height: 100vh;
+}
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-desktop {
+  height: 80vh;
+}
+@media all and (max-width: 767px) {
+  .home-desktop {
+    display: none;
+  }
+}
+@media all and (min-width: 767px) {
+  .home-mobile {
+    display: none;
+  }
+}
